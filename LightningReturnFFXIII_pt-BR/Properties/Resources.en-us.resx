@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllUpDate" xml:space="preserve">
+    <value>Both the program and the translation are in the latest version.</value>
+  </data>
+  <data name="AppUpdate" xml:space="preserve">
+    <value>Downloading the program update!</value>
+  </data>
+  <data name="AppUpdateMessage" xml:space="preserve">
+    <value>A new version of the program is available.
+Do you want to upgrade?</value>
+  </data>
+  <data name="CancelWarning" xml:space="preserve">
+    <value>It has an active process running.
+If interrupted, it can corrupt the game files.</value>
+  </data>
+  <data name="ConfirmAnswer" xml:space="preserve">
+    <value>Are you sure?</value>
+  </data>
+  <data name="DownTranslation" xml:space="preserve">
+    <value>Downloading the translation...</value>
+  </data>
+  <data name="DownTranslationComplete" xml:space="preserve">
+    <value>Translation package download finished!</value>
+  </data>
+  <data name="ExtractPackageInterrupted" xml:space="preserve">
+    <value>Extraction of the translation package was interrupted.
+Id of the package is different from the Id of the translation.</value>
+  </data>
+  <data name="GameDirectoryNot" xml:space="preserve">
+    <value>How can you not have a game directory?</value>
+  </data>
+  <data name="InstallCanceled" xml:space="preserve">
+    <value>Installation of the translation cancelled.</value>
+  </data>
+  <data name="InstallTranslationComplete" xml:space="preserve">
+    <value>Installation of the translation is complete.</value>
+  </data>
+  <data name="MakeBackup" xml:space="preserve">
+    <value>Making a backup</value>
+  </data>
+  <data name="Server_Response" xml:space="preserve">
+    <value>Getting information from the server</value>
+  </data>
+  <data name="UninstallComplete" xml:space="preserve">
+    <value>Uninstallation is complete.</value>
+  </data>
+  <data name="UninstallStart" xml:space="preserve">
+    <value>Starting the deinstallation, do not close the program.</value>
+  </data>
+  <data name="WrongPackage" xml:space="preserve">
+    <value>This is not a translation package for LRFFXIII.</value>
+  </data>
+  <data name="AppVersionString" xml:space="preserve">
+    <value>v{0}</value>
+  </data>
+  <data name="GameLocation" xml:space="preserve">
+    <value>LIGHTNING RETURNS FINAL FANTASY XIII</value>
+  </data>
+  <data name="WriteFailed" xml:space="preserve">
+    <value>An error has occurred: The file could not be written.
+You may be installing in the read-only directory or the program does not have permissions.
+Check the directory or run the program below. Administrator rights.</value>
+  </data>
+  <data name="ReadFailed" xml:space="preserve">
+    <value>An error has occurred: The file could not be read.
+It is possible that you are installing in a directory to which the program does not have access permission.
+Check the directory or run the program as Admin.</value>
+  </data>
+  <data name="UninstallFailed" xml:space="preserve">
+    <value>Uninstallation failed!
+
+LRFF13 may have been uninstalled, or during uninstallation it was interrupted unexpectedly.</value>
+  </data>
+  <data name="FreeSpace" xml:space="preserve">
+    <value>Warning:
+
+To install the translation, the drive must have about 5 GB free.
+Your drive has {0} free space. Please continue?</value>
+  </data>
+  <data name="AppVersion" xml:space="preserve">
+    <value>Program version: {0}</value>
+  </data>
+  <data name="TranslationTime" xml:space="preserve">
+    <value>Date of the translation: {0}.</value>
+  </data>
+  <data name="TranslationID" xml:space="preserve">
+    <value>Translation Id: {0}</value>
+  </data>
+  <data name="BeginInstall" xml:space="preserve">
+    <value>When starting the installation, do not close the program.
+If there are any problems or unexpected closures.
+Use "Uninstall" and reinstall.
+Translation by TriboGamer is free.
+Download the program only from tribogamer.com to avoid insertion of malicious code.</value>
+  </data>
+  <data name="UpdateBroken" xml:space="preserve">
+    <value>Update stopped!!!</value>
+  </data>
+  <data name="UnistallBroken" xml:space="preserve">
+    <value>Uninstallation stopped!!!</value>
+  </data>
+  <data name="InstallBroken" xml:space="preserve">
+    <value>Installation stopped!!!</value>
+  </data>
+  <data name="UninstallConfirm" xml:space="preserve">
+    <value>Are you sure you want to uninstall?</value>
+  </data>
+  <data name="BinNotFounded" xml:space="preserve">
+    <value>An error occurred: translation package not found.</value>
+  </data>
+  <data name="InProgressWarning" xml:space="preserve">
+    <value>An error has occurred: Another process in progress.
+
+Please wait.</value>
+  </data>
+  <data name="LocationException" xml:space="preserve">
+    <value>An error occurred: game folder not found.
+
+Select the correct game folder.</value>
+  </data>
+  <data name="TranslationUpdateMessage" xml:space="preserve">
+    <value>A new version of the translation is available.
+Do you want to update?</value>
+  </data>
+  <data name="HttpRequestBroken" xml:space="preserve">
+    <value>Are you connected to the Internet?</value>
+  </data>
+</root>
